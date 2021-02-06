@@ -1,4 +1,4 @@
-![example workflow name](https://github.com/hulkana/hello-github-actions.git/workflows/Hello%20world%20action/badge.svg)
+![Hello Actions](https://github.com/hulkana/hello-github-actions.git/workflows/Hello%20world%20action/badge.svg)
 
 
 ## Welcome to "Hello World" with GitHub Actions
