@@ -1,6 +1,9 @@
 name: hello                               # workflow name
 
-on: [push]                                # trigger | webhooks, scheduled
+on:
+  push:
+    branches:
+      - 'release/*'                                # trigger | webhooks, scheduled
 
 jobs:                                     # block of actions/jobs
   build:

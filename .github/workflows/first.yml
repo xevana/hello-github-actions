@@ -1,6 +1,10 @@
 name: first
 
-on: push
+on: 
+  push:
+    branches: 
+      - develop
+      - main
 
 jobs:
   job1:
