@@ -1,13 +1,11 @@
-name: hello
+name: hello                               # workflow name
 
-on: [push]
+on: [push]                                # trigger | webhooks, scheduled
 
-jobs:
+jobs:                                     # block of actions/jobs
   build:
-
-    runs-on: ubuntu-latest
-
-    steps:
+    runs-on: ubuntu-latest                # OS to run the actions in
+    steps:                                # each step has access to the file-system but runs in it's own process
     - uses: actions/checkout@v1
     - name: Run a one-line script
       run: echo Hello, world!
